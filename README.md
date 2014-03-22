@@ -16,6 +16,6 @@ $ sudo cp -r icons /usr/share/unity/icons
 If you are using Numix Light theme with this modified theme, it's recommend to apply this patch to make the color of Unity top panel to dark.
 
 ```
-$ sudo mv ~/.themes/Numix\ Light/metacity-1/metacity-theme-2.xml ~/.themes/Numix\ Light/metacity-1/metacity-theme-2.xml.orig
-$ sudo cp metacity-1/metacity-theme-2.xml ~/.themes/Numix\ Light/metacity-1/
+$ sudo mv ~/.themes/Numix\ Light/gtk-3.0/gtk.css ~/.themes/Numix\ Light/gtk-3.0/gtk.css.orig
+$ sudo cp gtk-3.0/gtk.css ~/.themes/Numix\ Light/gtk-3.0/
 ```
